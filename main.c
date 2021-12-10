@@ -1,8 +1,7 @@
+#include <stdio.h>
 int main(){
-	int test=1;
-	while(test<=11){
-		printf("%d\n",test);
-		test=test+1;
+	for (int i=1; i<11;i++){
+		printf ("%d\n", i);
 	}
 	return 0;
 }
