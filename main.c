@@ -32,7 +32,7 @@ int main(){
 			return 1;
 		}
 		else{
-			printf("You just found the number, it was indeen %d", guess);
+			printf("You just found the number, it was indeen %d", devine);
 		}
 	}
 	return 0;
