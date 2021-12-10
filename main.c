@@ -43,6 +43,9 @@ int main(int argc, char *argv[]){
                                 else if (devine > guess){
                                        printf("The number to guess is higher\n");
                                 }
+				else if(guess<0){
+					printf("Invalid Input\n");
+				}
                         }
                         else{
                                 printf("Invalid intput\n");
